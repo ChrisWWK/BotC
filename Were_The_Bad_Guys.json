@@ -1,0 +1,168 @@
+[
+ {
+    "id": "_meta",
+    "name": "We're The Bad Guys",
+    "author": "",
+    "logo": ""
+ },
+ {
+    "id":"sentinel"
+ },
+        {
+		"id": "Devils_Advocate_wtbg",
+		"image": "https://i.postimg.cc/hjxjYLRH/devilsadvocate.png",
+		"edition": "custom",
+		"name": "Justice",
+		"team": "townsfolk",
+		"ability": "Each night, choose a living player (not the same as last night): if executed tomorow, they don't die."
+	},
+        {
+		"id": "Prosecutor_wtbg",
+		"image": "https://i.postimg.cc/GmQv71xk/assassin.png",
+		"edition": "custom",
+		"name": "Prosecutor",
+		"team": "townsfolk",
+		"ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not."
+	},
+        {
+		"id": "baron_wtbg",
+		"image": "https://i.postimg.cc/CxfWkmCT/baron.png",
+		"edition": "custom",
+                "setup": true,
+		"name": "Daddy Warbucks",
+		"team": "townsfolk",
+		"ability": "There are fewer Outsiders in play. [-2 Outsiders]"
+	},
+        {
+		"id": "barista_wtbg",
+		"image": "https://i.postimg.cc/R07ybhbg/barista.png",
+		"edition": "custom",
+		"name": "Barista",
+		"team": "townsfolk",
+		"ability": "Each night, pick a player. They are sober, healthy, and recieve true information."
+	},
+        {
+		"id": "evil_twin_wtbg",
+		"image": "https://i.postimg.cc/prTSTZVS/eviltwin.png",
+		"edition": "custom",
+		"name": "Dopplegãnger",
+		"team": "townsfolk",
+		"ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live."
+	},
+        {
+		"id": "fang_gu_wtbg",
+		"image": "https://i.postimg.cc/wMGGsm7j/fanggu.png",
+		"edition": "custom",
+                "setup": true,
+		"name": "Fang Good",
+		"team": "townsfolk",
+		"ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes a good Fang Good & you die instead. [+1 Outsider]"
+	},
+        {
+		"id": "godfather_wtbg",
+		"image": "https://i.postimg.cc/kGLW3zFJ/goodfather.png",
+		"edition": "custom",
+		"name": "Goodfather",
+                "setup": true,
+		"team": "townsfolk",
+		"ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [−1 or +1 Outsider]"
+	},
+        {
+		"id": "poisoner_wtbg",
+		"image": "https://i.postimg.cc/c19jzVXG/poisoner.png",
+		"edition": "custom",
+		"name": "Enabler",
+		"team": "townsfolk",
+		"ability": "Each night, choose a player: they are drunk tonight and tomorrow until dusk"
+	},
+        {
+		"id": "vortox_wtbg",
+		"image": "https://i.postimg.cc/c4vjGXbg/vortox.png",
+		"edition": "custom",
+		"name": "Tranquil",
+		"team": "townsfolk",
+		"ability": "Each night*, choose a player; they die. Evil recieves false starting info. Each day, if no-one is executed, evil wins."
+	},
+        {
+		"id": "zombuul_wtbg",
+		"image": "https://i.postimg.cc/NjTz5LYQ/zombuul.png",
+		"edition": "custom",
+		"name": "Human",
+		"team": "townsfolk",
+		"ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead."
+	},
+        {
+		"id": "scarlet_woman_wtbg",
+		"image": "https://i.postimg.cc/x8h6dV4k/scarletwoman.png",
+		"edition": "custom",
+		"name": "Azure Woman",
+		"team": "outsider",
+		"ability": "If there are 5 or more players alive & the Demon dies, you become the Demon and turn evil."
+	},
+        {
+		"id": "mastermind_wtbg",
+		"image": "https://i.postimg.cc/2jKcGnSz/mastermind.png",
+		"edition": "custom",
+		"name": "Dimwit",
+		"team": "outsider",
+		"ability": "If the Demon dies, play for one more day. If a player is then executed, their team loses."
+	},
+        {
+		"id": "drunk_wtbg",
+		"image": "https://i.postimg.cc/ZRxDbQ8Z/drunk.png",
+		"edition": "custom",
+                "setup": true,
+		"name": "Drunk",
+		"team": "outsider",
+		"ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not."
+	},
+        {
+		"id": "yes_dashii_wtbg",
+		"image": "https://i.postimg.cc/JzwTVmXv/nodashii.png",
+		"edition": "custom",
+		"name": "Yes Dashii",
+		"team": "outsider",
+		"ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned."
+	},
+        {
+		"id": "courtier_wtbg",
+		"image": "https://i.postimg.cc/rmpjCp60/courtier.png",
+		"edition": "custom",
+		"name": "Courtier",
+		"team": "minion",
+		"ability": "Once per game, at night, choose a character: they are poisoned for 3 nights & 3 days."
+	},
+        {
+		"id": "monk_wtbg",
+		"image": "https://i.postimg.cc/xCFRsSYs/monk.png",
+		"edition": "custom",
+		"name": "Monk",
+		"team": "minion",
+		"ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight."
+	},
+        {
+		"id": "innkeeper_wtbg",
+		"image": "https://i.postimg.cc/xCBySy7Y/innkeeper.png",
+		"edition": "custom",
+		"name": "Jailer",
+		"team": "minion",
+		"ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk."
+	},
+        {
+		"id": "sailor_wtbg",
+		"image": "https://i.postimg.cc/v84FGY1Z/sailor.png",
+		"edition": "custom",
+		"name": "Pirate",
+		"team": "minion",
+		"ability": "Each night, choose a player: either you or they are drunk until dusk. You can't die."
+	},
+
+        {
+		"id": "philosopher_wtbg",
+		"image": "https://i.postimg.cc/3w8VVY57/philosopher.png",
+		"edition": "custom",
+		"name": "Philosopher",
+		"team": "demon",
+		"ability": "Once per game, at night, choose a good character: become them. If you duplicate an in-play character, they are drunk. You are still the Demon after you change characters."
+	}
+]
