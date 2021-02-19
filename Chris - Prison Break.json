@@ -9,7 +9,7 @@
     "edition": "custom",
     "firstNight": 14,
     "firstNightReminder": "",
-    "otherNight": 13,
+    "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [],
@@ -22,9 +22,9 @@
     "id": "Getaway Driver",
     "image": "https://i.postimg.cc/jdVYXCDM/Prince.png",
     "edition": "custom",
-    "firstNight": 0,
+    "firstNight": 13,
     "firstNightReminder": "",
-    "otherNight": 12,
+    "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [],
@@ -64,25 +64,10 @@
     "ability": "If you are executed and die, you can choose to kill 1 person that voted for you."
   },
   {
-    "id": "The Know-it-all",
-    "image": "https://i.postimg.cc/jj3GJjVQ/Knight.png",
-    "edition": "custom",
-    "firstNight": 10,
-    "firstNightReminder": "",
-    "otherNight": 8,
-    "otherNightReminder": "",
-    "reminders": ["Reported"],
-    "remindersGlobal": [],
-    "setup": 0,
-    "name": "The Know-it-all",
-    "team": "townsfolk",
-    "ability": "Each Night*, Choose 2 players.  You learn if 1 or more of them is evil."
-  },
-  {
     "id": "Defender",
     "image": "https://i.postimg.cc/rFR7RTg5/Cardinal.png",
     "edition": "custom",
-    "firstNight": 11,
+    "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 9,
     "otherNightReminder": "",
@@ -97,7 +82,7 @@
     "id": "Heywood",
     "image": "https://i.postimg.cc/FFkQ30Hf/Rook.png",
     "edition": "custom",
-    "firstNight": 12,
+    "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 10,
     "otherNightReminder": "",
@@ -109,10 +94,25 @@
     "ability": "Each Day announce 1 player (different from the day before), that night you will learn if they or 1 of their neighbors is the Demon."
   },
   {
+    "id": "The Know-it-all",
+    "image": "https://i.postimg.cc/jj3GJjVQ/Knight.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 8,
+    "otherNightReminder": "",
+    "reminders": ["Reported"],
+    "remindersGlobal": [],
+    "setup": 0,
+    "name": "The Know-it-all",
+    "team": "townsfolk",
+    "ability": "Each Night*, Choose 2 players.  You learn if 1 or more of them is evil."
+  },
+  {
     "id": "Whitmore",
     "image": "https://i.postimg.cc/bNQcF8bp/Scribe.png",
     "edition": "custom",
-    "firstNight": 8,
+    "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 6,
     "otherNightReminder": "",
@@ -127,9 +127,9 @@
     "id": "Robbins",
     "image": "https://i.postimg.cc/ZnG7x9jp/Herald.png",
     "edition": "custom",
-    "firstNight": 7,
+    "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 0,
+    "otherNight": 7,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [],
@@ -144,7 +144,7 @@
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 0,
+    "otherNight": 12,
     "otherNightReminder": "",
     "reminders": ["No ability"],
     "remindersGlobal": [],
@@ -166,31 +166,31 @@
     "setup": 0,
     "name": "Inmate Gwommy",
     "team": "townsfolk",
-    "ability": "You start picking your role, If it was already in play 1 of you is drunk, and get bad info."
+    "ability": "You start picking your role (Townsfolk role), If it was already in play 1 of you is drunk, and get bad info."
   },
   {
     "id": "Casper",
     "image": "https://i.postimg.cc/hvzZm88K/Food-Taster.png",
     "edition": "custom",
-    "firstNight": 5,
+    "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2,
+    "otherNight": 0,
     "otherNightReminder": "",
     "reminders": ["Chosen"],
     "remindersGlobal": [],
     "setup": 0,
     "name": "Casper",
     "team": "townsfolk",
-    "ability": "Your dead vote is all powerful, whoever you use your dead vote on will die regardless of majority (inactive last 3 players)."
+    "ability": "Your dead vote is powerful, whoever you use your dead vote on will die regardless of majority (inactive last 4 players)."
   },
 
   {
     "id": "Mime",
     "image": "https://i.postimg.cc/BbF93fV5/Pretender.png",
     "edition": "custom",
-    "firstNight": 16,
+    "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 14,
+    "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [],
@@ -215,12 +215,12 @@
     "ability": "You must claim to be the demon to everyone or no specific role, never anything else or you die, You may register as evil."
   },
   {
-    "id": "Victim",
+    "id": "Vick",
     "image": "https://i.postimg.cc/XYb3VX3r/Emissary.png",
     "edition": "custom",
-    "firstNight": 0,
+    "firstNight": 5,
     "firstNightReminder": "",
-    "otherNight": 1,
+    "otherNight": 2,
     "otherNightReminder": "",
     "reminders": ["No ability", "Becomes evil"],
     "remindersGlobal": [],
@@ -230,7 +230,7 @@
     "ability": "You think you are the demon, however your ability malfunctions. The demon knows who you are and who you attack"
   },
   {
-    "id": "Scape Goat",
+    "id": "Scape",
     "image": "https://postimg.cc/9DkK3LPN",
     "edition": "custom",
     "firstNight": 0,
@@ -242,14 +242,14 @@
     "setup": 0,
     "name": "Scape Goat",
     "team": "outsider",
-    "ability": "When you are nominated the 1st time the person who nominates you is put in jail and dies that night."
+    "ability": "When you are nominated the 1st time the person who nominates you dies that night."
   },
 
   {
     "id": "Night Guard",
     "image": "https://i.postimg.cc/dV8Xn9b1/Charlatan.png",
     "edition": "custom",
-    "firstNight": 13,
+    "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 11,
     "otherNightReminder": "",
@@ -258,7 +258,7 @@
     "setup": 0,
     "name": "Night Guard",
     "team": "minion",
-    "ability": "WEach Night*, You learn who was jailed, once per game you can choose to kill one of the current inmates."
+    "ability": "Each Night*, You learn who was jailed, once per game you can choose to kill one of the current inmates."
   },
   {
     "id": "Day Guard",
@@ -294,9 +294,9 @@
     "id": "Guard Tower",
     "image": "https://i.postimg.cc/TP3zwDs3/Usurper.png",
     "edition": "custom",
-    "firstNight": 0,
+    "firstNight": 3,
     "firstNightReminder": "",
-    "otherNight": 17,
+    "otherNight": 6,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [],
@@ -313,14 +313,14 @@
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 2,
+    "otherNight": 3,
     "otherNightReminder": "",
     "reminders": ["Dead"],
     "remindersGlobal": [],
     "setup": 0,
     "name": "Warden",
     "team": "demon",
-    "ability": "Each Night*, Pick a Player they die, You can hold out on killing every other die you wait an extra person can be choosen to die."
+    "ability": "Each Night*, Pick a Player they die, You can skip upto 2 nights +1 player for each night skipped."
   },
   {
     "id": "Jailer",
@@ -335,7 +335,7 @@
     "setup": 0,
     "name": "Jailer",
     "team": "demon",
-    "ability": "Each Night, put a player in jail, If you choose not to kill your inmates the next day you can jail 1 more person than day before."
+    "ability": "Each Night, put a player in jail or kill all your inmates, Jailed inmates will get bad info."
   },
   {
     "id": "Probation Officer",
@@ -350,7 +350,7 @@
     "setup": 0,
     "name": "Probation Officer",
     "team": "demon",
-    "ability": "Each Night*, Pick a Player, they are put in jail, and 1 of their neighbors is killed."
+    "ability": "Each Night*, Pick a Player, they are put in jail,  They get bad info, and 1 of their neighbors dies."
   },
   {
     "id": "Captain Hadley",
