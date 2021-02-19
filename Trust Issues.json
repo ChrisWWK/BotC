@@ -1,0 +1,316 @@
+[
+  {
+    "id": "_meta",
+    "name": "Trust Issues",
+    "author": "Cake",
+    "logo": "https://i.ibb.co/1LG98Wb/issues2.png"
+  },
+  {
+    "id": "headnurse",
+    "image": "https://i.postimg.cc/jddFmRnz/caduceus-1.png",
+	"firstNight": 0,
+    "otherNight": 14,
+    "reminders": ["Visited"],
+    "name": "Head Nurse",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player: You learn who they chose and what they learned. The Demon knows when you chose them. You cannot be the Demon."
+  },
+  {
+    "id": "psychologist",
+    "image": "https://i.postimg.cc/FHwCYcWZ/brain-1.png",
+    "firstNight": 4,
+    "otherNight": 17,
+    "otherNightReminder": "",
+    "reminders": [],
+    "name": "Psychologist",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player. If they agree, you both learn if they are the Demon. You cannot be the Demon."
+  },
+  {
+    "id": "conspiracy",
+    "image": "https://i.postimg.cc/LXpyTSMg/freemasonry-1.png",
+    "firstNight": 7,
+    "firstNightReminder": "",
+    "otherNight": 15,
+    "reminders": [],
+    "name": "Conspiracy Theorist",
+    "team": "townsfolk",
+    "ability": "Each night, choose as many players as there are evil players at setup. If you choose the entire evil team, good wins."
+  },
+  {
+    "id": "vividdreamer",
+    "image": "https://i.postimg.cc/t4smRD5J/dream-catcher-1.png",
+    "firstNight": 5,
+    "firstNightReminder": "",
+    "otherNight": 16,
+    "otherNightReminder": "",
+    "reminders": ["Demon Information", "Sitting next to the Demon Information" , "Same Alignment Information" , "All Information learned once"],
+    "name": "Vivid Dreamer",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 players. You learn if they are the same alignment, they sit next to the Demon, or one of them is the Demon. You are told what information you have learned every two nights."
+  },
+  {
+    "id": "pillhorder",
+    "image": "https://i.postimg.cc/FHkDXzrJ/overdose.png",
+    "firstNight": 3,
+    "firstNightReminder": "",
+    "otherNight": 3,
+    "otherNightReminder": "",
+    "reminders": ["Sober and Protected","Drunk"],
+    "name": "Pill Horder",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 players. One of them is healthy, sober, and protected from the Demon, the other is drunk until dusk."
+  },
+  {
+    "id": "securityguard",
+    "image": "https://i.postimg.cc/RFdTLnR2/police-officer-head-1.png",
+    "firstNight": 1,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "",
+    "reminders": ["Drunk"],
+    "name": "Security Guard",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 players. Minion, if chosen, doesn't wake tonight."
+  },
+  {
+    "id": "clairvoyant",
+    "image": "https://i.postimg.cc/1z6CwtbZ/crystal-ball-1.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 13,
+    "otherNightReminder": "",
+    "reminders": ["Registers Truthfully"],
+    "name": "Clairvoyant",
+    "team": "townsfolk",
+    "ability": "Each night*, choose 2 players. They register as their true alignment and character type, even if for some reason they could not."
+  },
+  {
+    "id": "copycat",
+    "image": "https://i.postimg.cc/7PNRK5hH/balaclava-1.png",
+    "firstNight": 6,
+    "otherNight": 0,
+	"reminders": ["Drunk"],
+    "name": "Copycat",
+    "team": "townsfolk",
+    "ability": "On your first night, choose a player. If they are good, you become their character. If they are evil, you are drunk for the rest of the game."
+  },
+  {
+    "id": "liar",
+    "image": "https://i.postimg.cc/FsBD6344/liar-2.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 18,
+    "otherNightReminder": "",
+    "reminders": ["Poisoned"],
+    "name": "Pathological Liar",
+    "team": "townsfolk",
+    "ability": "Each night*, choose two players. The Demon, if chosen, has their [ ] ability poisoned."
+  },
+  {
+    "id": "doomsdaypreacher",
+    "image": "https://i.postimg.cc/VLpWgwqs/unstable-projectile-3.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 19,
+    "otherNightReminder": "",
+    "name": "Doomsday Preacher",
+    "team": "townsfolk",
+    "ability": "Each night*, choose two players. You learn the total number of people they chose tonight."
+  },
+  {
+    "id": "scaredycat",
+    "image": "https://i.postimg.cc/x8FyWDBR/worried-eyes.png",
+    "firstNight": 0,
+    "otherNight": 8,
+    "reminders": ["Cannot die"],
+    "name": "Scaredy Cat",
+    "team": "townsfolk",
+    "ability": "Each night*, choose between two and four players. You can't die from the Demon tonight if one of them is the Demon."
+  },
+  {
+    "id": "corpseobsessed",
+    "image": "https://i.postimg.cc/zfmpzNv2/half-dead.png",
+    "firstNight": 9,
+    "otherNight": 20,
+    "reminders": ["learns"],
+    "name": "Corpse Obsessed",
+    "team": "townsfolk",
+    "ability": "Each night, choose two players. If either of them is dead by Dusk, you learn their role at night."
+  },
+  {
+    "id": "interrogator",
+    "image": "https://i.postimg.cc/hvM3v56z/baton-1.png",
+    "firstNight": 8,
+    "firstNightReminder": "",
+    "otherNight": 21,
+    "otherNightReminder": "",
+    "reminders": ["Red Herring"], 
+    "remindersGlobal": [],
+    "name": "Interrogator",
+    "team": "townsfolk",
+    "ability": "Each night, choose two players. You learn if there is an Evil player among them. There is one player that registers falsely to you. You might register as evil & as a Minion or Demon, even if dead."
+  },
+  {
+    "id": "anarchist",
+    "image": "https://i.postimg.cc/J0h564Y0/spiked-bat-1.png",
+    "firstNight": 2,
+    "otherNight": 2,
+    "reminders": ["Chosen"],
+    "remindersGlobal": [],
+    "name": "Anarchist",
+    "team": "outsider",
+    "ability": "Each night, choose two alive players. Tonight, any ability targeting one of them might instead target the other one."
+  },
+  {
+    "id": "nihilist",
+    "image": "https://i.postimg.cc/kMjcVKDb/sleepy.png",
+    "firstNight": 0,
+    "otherNight": 9,
+    "reminders": ["Chosen"],
+    "name": "Nihilist",
+    "team": "outsider",
+    "ability": "Each night*, choose two alive players. If one of them dies at night, you may die instead."
+  },
+  {
+    "id": "rambler",
+    "image": "https://i.postimg.cc/jSfQk1cH/talk.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": ["Mad"],
+    "name": "Rambler",
+    "team": "outsider",
+    "ability": "Each day, a different player is mad about being the Rambler for the day or might be executed. If you are mad about being the Rambler you might get executed. You cannot be the Demon."
+  },
+  {
+    "id": "joker",
+    "image": "https://i.postimg.cc/1zpB4dNm/jester-hat.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": ["Demon"],
+    "name": "Joker",
+    "team": "outsider",
+    "ability": "If you are the Demon, deaths you cause at night are arbitrary."
+  },
+  {
+    "id": "gaslighter",
+    "image": "https://i.postimg.cc/wvgVNkhh/paper-lantern.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "remindersGlobal": ["Townsfolk"],
+    "name": "Gaslighter",
+    "team": "minion",
+    "ability": "One Townsfolk thinks they are the Gaslighter and is unable to use their ability, even if dead. If you get executed, they regain their ability. You are not shown to and shown the other Minions."
+  },
+  {
+    "id": "shoulderangel",
+    "image": "https://i.postimg.cc/RF7Y5FTT/angel-outfit.png",
+    "firstNight": 0,
+    "otherNight": 12,
+    "reminders": ["Ability used"],
+    "name": "Shoulder Angel",
+    "team": "minion",
+    "ability": "Each night*, choose a player (not the same as last night). They register as Evil and Demon tonight."
+  },
+  {
+    "id": "shoulderdevil",
+    "image": "https://i.postimg.cc/BQ6mNNRp/gargoyle.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 94,
+    "otherNightReminder": "",
+    "reminders": ["Dead"],
+    "name": "Shoulder Devil",
+    "team": "minion",
+    "ability": "Each night*, choose a player: one of the players they choose tonight die. One good player knows you are in play. Demon can’t kill."
+  },
+  {
+    "id": "scemer",
+    "image": "https://i.postimg.cc/7YfNShTQ/suspicious.png",
+    "firstNight": 0,
+    "otherNight": 100,
+    "reminders": ["Now the Demon"],
+    "remindersGlobal": [],
+    "name": "Scemer",
+    "team": "minion",
+    "ability": "Each night, you may choose to become the Demon. If you do, the current Demon turn into the good-aligned character they think they are. You learn who the demon chose each night."
+  },
+  {
+    "id": "psychopath",
+    "image": "https://i.postimg.cc/MTm93LWP/enrage-1.png",
+    "firstNight": 98,
+    "otherNight": 98,
+	"firstNightReminder": "Only Town Ability.",
+    "reminders": ["Dead"],
+    "name": "Psychopath",
+    "team": "demon",
+    "ability": "[Townsfolk] Minions you kill keep their ability & are told who you are."
+  },
+  {
+    "id": "maniac",
+    "image": "https://i.postimg.cc/CLPQV9b9/chopped-skull.png",
+    "firstNight": 97,
+	"firstNightReminder": "Only Town Ability.",
+    "otherNight": 97,
+    "reminders": ["Dead", "Poisoned"],
+    "name": "Maniac",
+    "team": "demon",
+    "ability": "[Townsfolk] The first time you choose a Townsfolk, you poison them and kill one of their neighbors instead."
+  },
+  {
+    "id": "sociopath",
+    "image": "https://i.postimg.cc/HW3SQFvj/mouth-watering.png",
+    "firstNight": 96,
+	"firstNightReminder": "Only Outsider Ability.",
+    "otherNight": 96,
+    "reminders": ["Dead"],
+    "name": "Sociopath",
+    "team": "demon",
+    "ability": "[Outsider] The first time you choose an Outsider, you kill one of their neighbors instead. [+1 Outsider]"
+  },
+  {
+    "id": "doppelganger",
+    "image": "https://i.postimg.cc/rshQMtR5/kindle.png",
+    "firstNight": 95,
+	"firstNightReminder": "Only Town/Outsider Ability.",
+    "otherNight": 95,
+    "reminders": ["Dead"],
+    "name": "Doppelganger",
+    "team": "demon",
+    "ability": "[Townsfolk or Outsider] Two players are the Doppelganger at the same time and share the same ability. You cannot kill each other and only one of you causes deaths each night. [-1 Minion]"
+  },
+    {
+    "id": "twistedminds",
+    "image": "https://i.postimg.cc/Gt3qWjtc/gooey-eyed-sun.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "name": "Twisted Minds",
+    "team": "fabled",
+    "ability": "Minions learn the bluffs instead of the demon. The Demon receives no starting information. Minions might be shown the wrong Demon."
+  },
+  {
+    "id": "Blood thirst",
+    "image": "https://i.postimg.cc/4d4jbFms/blood.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "name": "Blood thirst",
+    "team": "fabled",
+    "ability": "All Demons have this ability: 'Each night*, one of the players you choose with your ability die.' "
+  },
+  {
+    "id": "Misremember",
+    "image": "https://i.postimg.cc/Y26bqx9x/screaming.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "name": "Misremember",
+    "team": "fabled",
+    "ability": "All Demons have this ability: 'You think you are a [ ] character and are able to use your [ ] ability, but you are not.'"
+  }
+
+
+]
