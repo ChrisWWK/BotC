@@ -329,7 +329,7 @@
         "setup": {},
         "name": "Old Spirit",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. The first time you are executed, the spirit passes to any players. The New Spirit keep their character and gain Old Spirit ability."
+        "ability": "Each night* choose a player: they die.  The first time the old spirit is executed, the spirit passes to any player.  The New Spirit (now the evil demon & also keeps their original character) each night will choose a player: they die."
     },
     {
         "id": "The House Itself",
@@ -344,7 +344,7 @@
         "setup": 0,
         "name": "The House Itself",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. Every third night, a player becomes evil instead of killing."
+        "ability": "Each night* choose a player: they die.  Every third night a player becomes evil instead of killing (Night 1 is the first night they attempt to kill)."
     },
     {
         "id": "Maniacs",
@@ -359,7 +359,7 @@
         "setup": {},
         "name": "Maniacs",
         "team": "demon",
-        "ability": "Each night*, both Maniacs wake up together and decide who to kill. Both demons need to die for the good team to win. [-1 Minion, -1 bluff role]"
+        "ability": "Each night* both Maniacs wake up together and decide who to kill.  Both demons need to die for the good team to win. [-1 minion, demons = 2 bluff roles, minions = 1 bluff role]"
     },
     {
         "id": "The Entity",
@@ -374,7 +374,7 @@
         "setup": 0,
         "name": "The Entity",
         "team": "demon",
-        "ability": "Each night, infect a player. Infection spreads to the first player they nominate in the day. Whoever is infected will die the following night. If an evil player is infected at night, they are poisoned instead."
+        "ability": "Each night infect a player.  The infected player will pass the infection to the first player they nominate in the day.  Whoever is infected will die immediately the following night. If an evil player is infected at night: they are poisoned instead of dying."
     }
 
 
